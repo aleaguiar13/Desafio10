@@ -1,0 +1,77 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    background-color: #2CB3F3;
+    width: 70vw;
+    height: 120vh;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    display: flex;
+    background-color: white;
+    width: 50vw;
+    height: 70vh;
+    align-items: center;
+justify-content: center;
+border-radius: 17% 17% 0 0;
+}
+.bolarosa{
+    display: flex;
+    background-color: #FFE1C9;
+    width: 35vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    border:solid;
+}
+button{
+    background-color: #55A603;
+    color: white;
+    width: 15vw;
+    height: 8vh;
+    border-radius: 10% 10% 10% 10%;
+    border:none;
+    box-shadow: 10px 6px 4px #000;
+    margin: 30px;
+    font-size: 20px;
+
+}
+header{display: flex;
+    height: 10vh;
+align-items: flex-end;
+}
+.space{
+    border:solid;
+    width: 3vw;
+    height: 5vh;
+    border-radius: 50%;background-color: black;
+
+}
+.mae{
+    display: flex;
+width: 20vw;
+height: 20vh;
+justify-content: space-between;
+}
+h3{
+    color: gray;
+}
+.input{
+    border:solid;
+    border-radius: 8%;
+   width: 19vw;
+   height: 6vh;
+}
+body{
+    margin-left: 10%;
+}
